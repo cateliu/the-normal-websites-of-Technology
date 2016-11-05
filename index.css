@@ -2,6 +2,7 @@
 	padding: 0px;
 	margin: 0px;
 	font-family: Microsoft YaHei;
+	box-sizing: border-box;
 }
 body{
 	margin: 0px;
@@ -17,15 +18,55 @@ header{
 div.log-and-title{
 	margin-left: 59px;
 	margin-top: 13px;
-	width: 110px;
 	float: left;
 }
-div.log-and-title span{
-	color: #393a3a;
-	font-family: 黑体;
-	font-size: 21px;
-	margin-left: 11px;
+.log-and-title span{
+	color: #393A3A;
+    font: 600 21px 黑体;
+    vertical-align:middle;
+}
+.log-and-title img{
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  vertical-align:middle;
+  line-height: 31px;
+  margin-right: 5px;
+}
+/* 导航栏 */
+header ul{
+  width: 590px;
+  color: #787b83;
+  float: right;
+}
+header li{
+	text-decoration: none;
 	display: inline-block;
+	width: 65px;
+    height: 52px;
+    border-bottom: 4px solid white;
+    margin-right: 10px;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+header li:hover{
+	border-bottom: 4px solid #e7504d;
+	color: #e74f4d;
+}
+header li span{
+	display: block;
+	text-align: center;
+	top: 50%;
 	position: relative;
-	bottom: 4px;
+	margin-top: -9.5px;
+	font:600 14px 'Microsoft YaHei';
+}
+/* 
+       主体部分 
+*/
+.interface-the-first{
+	background-image: url('backgound_top.png');
+	height: 690px;
+	background-size: cover;
+	background-position: center center;
 }
