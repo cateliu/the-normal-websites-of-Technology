@@ -1,0 +1,31 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: Microsoft YaHei;
+}
+body{
+	margin: 0px;
+}
+/*
+     头部
+*/
+header{
+	height: 56px;
+	position: relative;
+	overflow: hidden;
+}
+div.log-and-title{
+	margin-left: 59px;
+	margin-top: 13px;
+	width: 110px;
+	float: left;
+}
+div.log-and-title span{
+	color: #393a3a;
+	font-family: 黑体;
+	font-size: 21px;
+	margin-left: 11px;
+	display: inline-block;
+	position: relative;
+	bottom: 4px;
+}
