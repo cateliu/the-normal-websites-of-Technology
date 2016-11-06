@@ -31,12 +31,35 @@ div.log-and-title{
   height: 31px;
   vertical-align:middle;
   line-height: 31px;
-  margin-right: 5px;
+  margin-right: 9px;
 }
 /* 导航栏 */
+header nav{
+	overflow: hidden;
+}
+nav div{
+	float: right;
+	height: 27px;
+	margin-top: 11px;
+	overflow: hidden;
+}
+div.sign-in img{
+	width: 15px;
+	height: 17px;
+	vertical-align: middle;
+	display: inline-block;
+}
+div.sign-in section{
+  color: #E74F4D;
+  font:14px/1.929 'Microsoft YaHei';
+  vertical-align: middle;
+  margin-right: 66px;
+  display: inline-block;
+}
 header ul{
-  width: 590px;
+  width: 511px;
   color: #787b83;
+  height: 56px;
   float: right;
 }
 header li{
@@ -45,7 +68,7 @@ header li{
 	width: 65px;
     height: 52px;
     border-bottom: 4px solid white;
-    margin-right: 10px;
+    margin-right: 40px;
     overflow: hidden;
     box-sizing: content-box;
 }
@@ -59,14 +82,50 @@ header li span{
 	top: 50%;
 	position: relative;
 	margin-top: -9.5px;
-	font:600 14px 'Microsoft YaHei';
+	font:14px 'Microsoft YaHei';
 }
 /* 
        主体部分 
 */
 .interface-the-first{
+	height: 691px;
+	overflow: hidden;
 	background-image: url('backgound_top.png');
-	height: 690px;
+	position: relative;	
 	background-size: cover;
-	background-position: center center;
+}
+.interface-the-first section{
+  color: #FFFFFF;
+  font-size:60px;
+  position: absolute;
+  top: 216px;
+  left: 116px;
+}
+.interface-the-first span {
+	color: #FFFDFD;
+	position: absolute;
+	left: 124px;
+	top: 304px;
+	font-size: 21px;
+	line-height: 32px;
+	width: 295px;
+}
+.interface-the-first img{
+	width: 100%;
+	height: 691px;
+}
+.button{
+  width: 331px;
+  height: 63px;
+  background-color: #e74f4d;
+  position: absolute;
+  top: 430px;
+  left: 126px;
+}
+.button p{
+	text-align: center;
+	line-height: 59px;
+	color: #FFFFFF;
+	font-size: 30px;
+	letter-spacing: 3px;
 }
